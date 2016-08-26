@@ -1,0 +1,2 @@
+[0000001] [14:28:56:956273] [Tid0x00004f54] [info] (call_log)1 +-> flashtool_set_log_level #d:\home\mtk10304\refactor\project\wcp2_cleanroom\da\download_agent_dev\da_refactor\raphael-lib\interface\flashtoolex_api.cpp (line:24)
+[0000002] [14:28:56:957993] [Tid0x00004f54] [info] (call_log)1 <-+ flashtool_set_log_level

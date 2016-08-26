@@ -1,0 +1,1 @@
+findstr "Name:" boxdata\\info > boxdata\\info.dll

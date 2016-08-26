@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!--115200, 921600 or other baud rate -->
+	<uart_connection_baudrate>921600</uart_connection_baudrate>
+
+</config>

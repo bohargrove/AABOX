@@ -1,0 +1,43 @@
+Begin
+MediaTek SP Flash Tool v5.1828.01
+Build Time: Jul 20 2018 11:45:00
+Init config from input arguments
+Clear all Commands!!
+Download Command::Create
+DownloadCommand::Execute
+General settings creat command
+General Command exec
+General Command ::LoadDA
+General Command ::LoadScatterFile
+General Command ::LoadRoms
+rom list is empty, auto load all roms
+rom list:Index(0), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\preloader_mbk72_wet_jb3.bin
+rom list:Index(1), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\MBR
+rom list:Index(2), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\EBR1
+rom list:Index(8), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\lk.bin
+rom list:Index(9), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\boot.img
+rom list:Index(10), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\recovery.img
+rom list:Index(11), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\secro.img
+rom list:Index(13), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\logo.bin
+rom list:Index(15), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\system.img
+rom list:Index(16), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\cache.img
+rom list:Index(17), Enable(1),Path:G:\Firmwares\SamCopy\MT6572\userdata.img
+General Command ::LoadAuthFile
+General Command ::LoadCertFile
+General command exec done!
+Connection create done!
+Command (0)::Execute
+Connecting to BROM...
+Scanning USB port...
+Search usb, timeout set as 120000 ms
+SearchUSBPortPool failed!
+Failed to find USB port
+Connect BROM failed: S_TIMEOUT(1042)
+Disconnect!
+Exception: err_code[1042], err_msg[ ERROR : S_TIMEOUT (1042)
+
+
+[HINT]:
+]
+
+Logger deinited.

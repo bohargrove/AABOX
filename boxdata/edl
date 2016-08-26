@@ -1,0 +1,9 @@
+Version 2.16
+Finding all devices in emergency download mode...
+
+Finding all disks on computer ...
+0. \\.\PhysicalDrive0  Size: 152627MB, (312581808 sectors), size: 512 Mount:D:, Name:[Huawei MTK Oppo]
+1. \\.\PhysicalDrive1  Size: 476940MB, (976773168 sectors), size: 512 Mount:I:, Name:[Softwares Flasher]
+2. \\.\PhysicalDrive2  Size: 953868MB, (1953523055 sectors), size: 512 Mount:C:, Name:[]
+Status: 0 The operation completed successfully.
+

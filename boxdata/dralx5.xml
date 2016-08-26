@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6761</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>D:\Huawei\DRA-LX5\MTK_AllInOne_DA.bin</download-agent>
+        <scatter>D:\Huawei\DRA-LX5\Android_scatter.txt</scatter>
+        <authentication></authentication>
+        <certification></certification>
+        <rom-list>
+            <rom index="0" enable="true">D:\Huawei\DRA-LX5\preloader_k61v1_64_mexico.bin</rom>
+            <rom index="11" enable="false"></rom>
+            <rom index="12" enable="false"></rom>
+            <rom index="13" enable="false"></rom>
+            <rom index="17" enable="false"></rom>
+            <rom index="22" enable="false"></rom>
+            <rom index="24" enable="false"></rom>
+            <rom index="25" enable="false"></rom>
+            <rom index="26" enable="false"></rom>
+            <rom index="27" enable="false"></rom>
+            <rom index="28" enable="false"></rom>
+            <rom index="29" enable="false"></rom>
+            <rom index="30" enable="false"></rom>
+            <rom index="31" enable="false"></rom>
+            <rom index="32" enable="false"></rom>
+            <rom index="35" enable="false"></rom>
+            <rom index="36" enable="false"></rom>
+            <rom index="37" enable="false"></rom>
+            <rom index="38" enable="false"></rom>
+            <rom index="39" enable="false"></rom>
+            <rom index="40" enable="false"></rom>
+            <rom index="41" enable="false"></rom>
+            <rom index="42" enable="false"></rom>
+            <rom index="43" enable="false"></rom>
+            <rom index="44" enable="false"></rom>
+            <rom index="45" enable="false"></rom>
+            <rom index="46" enable="false"></rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" da_log_level="Info" da_log_channel="UART" timeout-count="3600000" com-port="" />
+        <checksum-level>both</checksum-level>
+        <!--log_on: log switch, enable log if true, otherwise false;
+			log_path: the directory in which the log files has been stored;
+			clean_hours: the time setting to delete log files regularly, the unit is hours.-->
+        <log-info log_on="true" log_path="C:\ProgramData\SP_FT_Logs" clean_hours="744" />
+    </general>
+    <commands>
+        <combo-format>
+		<format validation="false" physical="false" erase-flag="NormalErase" auto-format="false">
+		<begin-addr>0x108000</begin-addr>
+		<length>0x100000</length>
+		<part-id>2</part-id>
+		</format>
+		</combo-format>
+    </commands>
+</flashtool-config>

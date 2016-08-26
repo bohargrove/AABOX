@@ -1,0 +1,4 @@
+[0000001] [14:28:52:524597] [Tid0x00004e8c] [info] (call_log)1 +-> flashtool_set_log_level #d:\home\mtk10304\refactor\project\wcp2_cleanroom\da\download_agent_dev\da_refactor\raphael-lib\interface\flashtoolex_api.cpp (line:24)
+[0000002] [14:28:52:525597] [Tid0x00004e8c] [info] (call_log)1 <-+ flashtool_set_log_level
+[0000003] [14:28:52:658076] [Tid0x00004e8c] [info] (call_log)2 +-> flashtool_set_log_level #d:\home\mtk10304\refactor\project\wcp2_cleanroom\da\download_agent_dev\da_refactor\raphael-lib\interface\flashtoolex_api.cpp (line:24)
+[0000004] [14:28:52:658076] [Tid0x00004e8c] [info] (call_log)2 <-+ flashtool_set_log_level

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- libversion2.0 used refactor lib, libversion 1.0 used old lib -->
+	<!-- if not found platform, default used libversion 1.0 -->
+	<MT6755>2.0</MT6755>
+	<MT6752>1.0</MT6752>
+	<MT6795>1.0</MT6795>
+	<MT8163>1.0</MT8163>
+</config>

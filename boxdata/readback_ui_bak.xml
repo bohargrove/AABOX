@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6580</chip-name>
+        <storage-type>EMMC</storage-type>
+    </general>
+    <commands>
+        <readback>
+            <physical-readback is-physical-readback="false" />
+            <readback-list>
+                <readback-rom-item readback-index="0" readback-enable="true" readback-flag="NUTL_READ_PAGE_ONLY" start-address="0x0000000000000000" readback-length="0x1d0f80000" addr-flag="NUTL_ADDR_LOGICAL" part-id="8">G:\Firmwares\Greentel\X1 light\ROM_1</readback-rom-item>
+            </readback-list>
+        </readback>
+    </commands>
+</flashtool-config>

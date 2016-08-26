@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6580</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>boxdata\MTK_AllInOne_DA.bin</download-agent>
+        <scatter>boxdata\mtk\7\MT6580_Android_scatter.txt</scatter>
+        <authentication></authentication>
+        <certification></certification>
+        <rom-list>
+            <rom index="0" enable="true">boxdata\mtk\7\preloader_bd6580_weg_b_m.bin</rom>
+            <rom index="7" enable="false"></rom>
+            <rom index="8" enable="false"></rom>
+            <rom index="9" enable="false"></rom>
+            <rom index="11" enable="false"></rom>
+            <rom index="17" enable="false"></rom>
+            <rom index="19" enable="false"></rom>
+            <rom index="20" enable="false"></rom>
+            <rom index="21" enable="false"></rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" da_log_level="Info" da_log_channel="UART" timeout-count="3600000" com-port="" />
+        <checksum-level>none</checksum-level>
+        <!--log_on: log switch, enable log if true, otherwise false;
+			log_path: the directory in which the log files has been stored;
+			clean_hours: the time setting to delete log files regularly, the unit is hours.-->
+        <log-info log_on="true" log_path="C:\ProgramData\SP_FT_Logs" clean_hours="744" />
+    </general>
+    <commands>
+		<format validation="false" physical="true" erase-flag="NormalErase" auto-format="false">
+		<begin-addr>0xba800000</begin-addr>
+		<length>0x60000000</length>
+		<part-id>0</part-id>
+		</format>
+		<da-download-all>
+    </da-download-all>
+    </commands>
+</flashtool-config>

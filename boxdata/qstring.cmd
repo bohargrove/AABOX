@@ -1,0 +1,1 @@
+findstr "MSM_HW_ID:" boxdata\\info > boxdata\\info.dll

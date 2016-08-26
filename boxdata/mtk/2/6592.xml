@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6592</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>C:\Artiven\aabox\boxdata\MTK_AllInOne_DA.bin</download-agent>
+        <scatter>J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\MT6592_Android_scatter.txt</scatter>
+        <authentication></authentication>
+        <certification></certification>
+        <rom-list>
+            <rom index="0" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\preloader_lcsh92_cwet_kk.bin</rom>
+            <rom index="1" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\MBR</rom>
+            <rom index="2" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\EBR1</rom>
+            <rom index="8" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\lk.bin</rom>
+            <rom index="9" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\boot.img</rom>
+            <rom index="10" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\recovery.img</rom>
+            <rom index="11" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\secro.img</rom>
+            <rom index="13" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\logo.bin</rom>
+            <rom index="14" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\EBR2</rom>
+            <rom index="17" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\system.img</rom>
+            <rom index="18" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\cache.img</rom>
+            <rom index="19" enable="false">J:\Firmwares\htc\HTC D816h Dual Sim\htc 816h mt6592 dual sim tested by me\0PGL20000_A5MGP_DUG_K44_SENSE53_htc_europe_1.13.401.001_Radio_MOLY.WR8.W1315.MD.WG.MP.V34.P21\userdata.img</rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" da_log_level="Info" da_log_channel="UART" timeout-count="3600000" com-port="" />
+        <checksum-level>both</checksum-level>
+        <!--log_on: log switch, enable log if true, otherwise false;
+			log_path: the directory in which the log files has been stored;
+			clean_hours: the time setting to delete log files regularly, the unit is hours.-->
+        <log-info log_on="true" log_path="C:\ProgramData\SP_FT_Logs" clean_hours="720" />
+    </general>
+    <commands>
+       <combo-format>
+		<format validation="false" physical="false" erase-flag="NormalErase" auto-format="false">
+		<begin-addr>0xb4000000</begin-addr>
+		<length>0x80000000</length>
+		<part-id>3</part-id>
+		</format>
+		</combo-format>
+    </commands>
+</flashtool-config>

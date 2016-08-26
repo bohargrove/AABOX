@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6572</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>D:\Huawei\AMN-LX9, AMN-LX1, AMN-LX2, AMN-LX3\SP_Flash_Tool_v5.1824_Win\SP_Flash_Tool_v5.1824_Win\MTK_AllInOne_DA.bin</download-agent>
+        <scatter>G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\MT6572_Android_scatter.txt</scatter>
+        <authentication></authentication>
+        <certification></certification>
+        <rom-list>
+            <rom index="0" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\preloader_mbk72_wet_jb3.bin</rom>
+            <rom index="1" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\MBR</rom>
+            <rom index="2" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\EBR1</rom>
+            <rom index="8" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\lk.bin</rom>
+            <rom index="9" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\boot.img</rom>
+            <rom index="10" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\recovery.img</rom>
+            <rom index="11" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\secro.img</rom>
+            <rom index="13" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\logo.bin</rom>
+            <rom index="15" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\system.img</rom>
+            <rom index="16" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\cache.img</rom>
+            <rom index="17" enable="true">G:\Firmwares\Sam Copy\Samsung J300 MT6572 4.4.4 firmware download by GsmsolutionBD.com\MT6572__samsung__SM-J3109__SM-J3109__4.4.4__ALPS.JB3.MP.V1\userdata.img</rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="false" power="WithoutBattery" da_log_level="Info" da_log_channel="UART" timeout-count="3600000" com-port="" storage_life_cycle_check="false" />
+        <checksum-level>none</checksum-level>
+        <!--log_on: log switch, enable log if true, otherwise false;
+			log_path: the directory in which the log files has been stored;
+			clean_hours: the time setting to delete log files regularly, the unit is hours.-->
+        <log-info log_on="true" log_path="C:\ProgramData\SP_FT_Logs" clean_hours="744" />
+    </general>
+    <commands>
+        <download-only>
+            <da-download-all />
+        </download-only>
+    </commands>
+</flashtool-config>
